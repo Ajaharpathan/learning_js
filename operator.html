@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- arithmatic operators -->
+     
+    <script> 
+        var a = 10;
+        var b = 5;
+        var c = a + b; //binary
+        // document.write(c + "<br>")
+        c++;//unary
+        c++;
+        c++;
+        c++;
+        c--;
+        c--;
+        c--; // 16 output
+
+        document.write(c + "<br>")
+
+        // assignment operators: = ,+=, -+, *=, 
+
+        var x = 10;
+        var y = 12;
+        x += y;
+        // x = x + y;
+        document.write(x + "<br>");//17
+        document.write(y = "<br>");//7
+
+ 
+    </script>
+ 
+    <!-- comparison operator -->
+
+     <script>
+        var p = 17;
+        var q = "17";
+        
+        document.write("<br>");
+        if(p==q){ //check value only  
+            document.write("true");
+        }else{
+            document.write("False")
+        }
+     </script>
+
+     <script>
+        var p = 17;
+        var q = "17";
+        
+        document.write("<br>");
+        if(p===q){   //check datatypes and value ===
+            document.write("true");
+        }else{
+            document.write("False")
+        }
+     </script>
+             
+              <!-- //logical operator -->
+     <script>
+        document.write("<br>");
+        var age = 17;
+        if(age >= 18 && age <=100) {
+            document.write("Eligible for vote");
+        }else{
+            document.write("not eligible");
+        }
+     </script>
+
+         <!-- //logical operator -->
+     <script>
+        document.write("<br>");
+        var day = "sunday";
+        if(day === "saturday" || day === "sunday") {
+            document.write("It's Weekends");
+        }else{
+            document.write("It's Weekdays");
+        }
+     </script>
+
+     <!-- //logical operator -->
+     <script>
+        document.write("<br>");
+        var day = "monday";
+        if(day === "saturday" || day === "sunday") {
+            document.write("It's Weekends");
+        }else{
+            document.write("It's Weekdays");
+        }
+     </script>
+
+    <script>
+        document.write("<br>");
+        let our_age = 17;
+        let eligibilty = (our_age  >= 18) ? "Eligible for vote" : "Not Eligible for vote"
+        document.write(eligibilty);
+    </script>
+
+
+</body>
+</html>
