@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+     <script>
+        //array modify and delete
+        var a = ["ajahar ", 22, "Male", "Software Developer", "Pune"];
+        document.write(a,"<br>")
+        a[1] = 24; //update
+        a[4] = "Mumbai";
+
+        document.write(a,"<br>");
+        delete a[2]; //delete
+        delete a[4];
+        document.write(a, "<br>");
+
+     </script>
+     <br>
+     <h2>sorting and reverse</h2>
+     <script>
+        //sorting and reverse
+        var b = ["ajahar", "pathan" , "harun", "mosin", "umar"];
+
+        document.write(b, "<br>")
+
+        b.sort();
+        document.write(b, "<br>")
+        b.reverse();
+        document.write(b, "<br>")
+     </script>
+     <br>
+     <h2>Pop and Push</h2>
+     <script>
+        var c = ["ajahar ", "pathan" ,"babu", "nasib", "anas", "affan"];
+
+        document.write(c ,"<br>")
+
+        c.push("nisar");
+        c.push("hakim");
+        c.push("akil");
+        document.write(c, "<br>") 
+        c.pop();
+        c.pop();
+        c.pop();
+        document.write(c, "<br>")
+
+     </script>
+     <h2>Shift Unshift</h2>
+     <script>
+        var d =  ["ajahar ", "pathan" ,"babu", "nasib", "anas", "affan"];
+        document.write(d , "<br>")
+
+        d.shift();
+        d.shift();
+        d.shift();
+        document.write(d, "<br>")
+
+        d.unshift("mosin");
+        document.write(d, "<br>") 
+
+     </script>
+     <br>
+     <h2>concat and join</h2>
+     <script>
+        var a = ["ajahar ", "pathan" ,"babu", "nasib", "anas", "affan"];
+        var b = ["vivek", "yogini", "laju", "yasin"];
+        var d = ["vushika", "ajahar", "pathan"];
+        
+       // var e = a+b+d.concat(e)
+        var c = a.concat(b,d);
+
+        document.write(c, "<br>");
+
+        var x = c.join("/");
+        document.write(x, "<br>")
+     </script>
+</body>
+</html>
